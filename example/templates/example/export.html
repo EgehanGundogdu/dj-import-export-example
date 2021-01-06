@@ -1,0 +1,20 @@
+<!-- example/templates/example/export.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Export</title>
+</head>
+<body>
+    <form action="" method="POST">
+        {% csrf_token %}
+        <select name="file_type" id="">
+            <option selected value="csv">CSV</option>
+            <option value="json">JSON</option>
+            <option value="excel">EXCEL</option>
+        </select>
+        <button type="submit">Export</button>
+    </form>
+</body>
+</html>

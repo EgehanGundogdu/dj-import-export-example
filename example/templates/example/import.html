@@ -1,0 +1,17 @@
+<!-- example/templates/example/import.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+        <form action="" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            <input type="file" required name="import_file" id="">
+            <br><br>
+            <button type="submit">Import the file.</button>
+        </form>
+</body>
+</html>
