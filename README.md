@@ -2,7 +2,7 @@
 
 This repo contains sample project codes of the django model import export article published on [egehangundogdu.com.](https://egehangundogdu.com)
 
-[If you want to read related article follow the link!]('https://www.egehangundogdu.com/django-import-export-model/')
+[If you want to read related article follow the link!](https://egehangundogdu.com/django-import-export-model/)
 
 # Setup 
 
